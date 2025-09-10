@@ -40,7 +40,6 @@ def make_args():
     parser.add_argument("--add_cam_noise", action="store_true", help="add noise to camera parameter.")
     args = parser.parse_args()
 
-
     g_u_ratio = args.u_ratio
     g_v_ratio = args.v_ratio
     g_u_max = args.u_max
